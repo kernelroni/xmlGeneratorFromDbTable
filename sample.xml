@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<table name="prices" description="Price List" primary_key="id">
+  <field name="id" type="int"/>
+  <field name="name" type="text"/>
+  <field name="description" type="text"/>
+  <field name="price" type="float"/>
+  <field name="currency_id" type="int"/>
+  <field name="uom_id" type="int"/>
+  <field name="status" type="bool"/>
+</table>
